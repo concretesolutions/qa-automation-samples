@@ -1,15 +1,15 @@
 #language: pt
 
 @example
-Feature: Learning to use the protractor
-As a Quality assurance
-I want to learn how to use the protractor 
-In order to be able to automate successful angled applications
+Feature: Learning to use Protractor 
+As a QA
+I want to learn how to use Protractor 
+To be able to automate angular applications 
 
-Scenario: Validate texts on the site angular.org
-  Given Im on the page
-  When you fill in the text filed with the "<name>"
-  Then I checked the text "Hello <name>!" has been successfully validated
+Scenario Outline: Validate texts in angular.org website
+Given Im on the page
+When I fill in the text field with "<name>"
+Then I checked that the text "Hello <name>" was successfully validated
 
   Examples: 
   | name        |
