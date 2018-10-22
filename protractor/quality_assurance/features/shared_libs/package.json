@@ -1,0 +1,14 @@
+{
+  "name": "shared_libs",
+  "version": "1.0.0",
+  "description": "folder with files to be shared between the project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lucas Fraga",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "safe-buffer": "^5.1.2"
+  }
+}

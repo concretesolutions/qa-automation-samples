@@ -1,0 +1,24 @@
+# Shared between .npmignore and .gitignore
+
+yarn.lock
+chromedriver.log
+libpeerconnection.log
+xmloutput*
+npm-debug.log
+.idea/
+.vscode/
+*.DS_Store
+*.swp
+selenium/
+
+# Build artifacts
+
+built/
+spec/built/
+node_modules/
+website/bower_components/
+website/build/
+website/docgen/build/
+screenshots/
+results.json/
+cucumber_report.html/
