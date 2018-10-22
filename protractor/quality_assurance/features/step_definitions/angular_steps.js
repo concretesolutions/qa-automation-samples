@@ -4,15 +4,15 @@ const expect = require('chai').use(require('chai-as-promised')).expect
 const AngularPage = require('../page_objects/angular_po')
 const page = new AngularPage()
 
-Given('que eu esteja na página', async function () {
+Given('Im on the page', async function () {
   await page.open('/')
 })
 
-When('preencher o campo de texto com o {string}', async function (name) {
+When('you fill in the text filed with the {string}', async function (name) {
   await page.fillText(name)
 })
 
-Then('verifico que o texto {string} foi validado com sucesso', async function (text) {
+Then('I checked the text {string} has been successfully validated', async function (text) {
   await expect(page.resultText.getText())
     .to.eventually.equal(text)
 })

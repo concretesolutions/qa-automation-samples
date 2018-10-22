@@ -1,17 +1,17 @@
 #language: pt
 
 @example
-Funcionalidade: Learning to use the protractor
-Como um QA
-Quero aprender a utilizar o protractor 
-Para então poder automatizar aplicações em angular com sucesso 
+Feature: Learning to use the protractor
+As a Quality assurance
+I want to learn how to use the protractor 
+In order to be able to automate successful angled applications
 
-Esquema do Cenario: Validar textos no site do angular.org
-  Dado que eu esteja na página
-  Quando preencher o campo de texto com o "<name>"
-  Então verifico que o texto "Hello <name>!" foi validado com sucesso
+Scenario: Validate texts on the site angular.org
+  Given Im on the page
+  When you fill in the text filed with the "<name>"
+  Then I checked the text "Hello <name>!" has been successfully validated
 
-  Exemplos: 
+  Examples: 
   | name        |
   | Concrete    |
   | QA Analyst  |
