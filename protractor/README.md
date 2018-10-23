@@ -28,7 +28,7 @@
 
 ## Installation
 
-- Install all dependencies (package.json)
+- Install all dependencies (package.json: `./protractor` and folder: `/shared_libs`)
 
 ![Install example](http://g.recordit.co/0xODbJSVZ1.gif)
 
