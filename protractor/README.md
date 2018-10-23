@@ -1,5 +1,3 @@
-<a href="https://www.protractortest.org/#/"><img src="https://www.protractortest.org/#/" title="Protractor" alt="Protractor"></a>
-
 # qa-automation-sample: PROTRACTOR
 
 > Repository with examples of automation using Protractor
@@ -14,6 +12,7 @@
 
 > Índice `README`.
 
+- [Prerequisite](#prerequisite)
 - [Installation](#installation)
 - [Features](#features)
 - [Support](#support)
@@ -21,16 +20,21 @@
 
 ---
 
+## Prerequisite
+
+- [Node install](https://nodejs.org/en/download/)
+- [Npm install](https://www.npmjs.com/get-npm)
+- [Protractor install](https://www.npmjs.com/package/protractor)
+
 ## Installation
 
-- Install package dependency
+- Install all dependencies (package.json)
+
+![Install example](http://g.recordit.co/0xODbJSVZ1.gif)
 
 > Tips
 
-- Use package scritps
-- Install all dependencies (package.json):
-
-![Install example](http://g.recordit.co/0xODbJSVZ1.gif)
+- Use scripts (package.json) for shortcut
 
 ### Clone
 
@@ -53,17 +57,17 @@ $ npm run test
 - file `.feature`
 
 ```gherkin
-Funcionalidade: Learning to use the protractor
-Como um QA
-Quero aprender a utilizar o protractor 
-Para então poder automatizar aplicações em angular com sucesso 
+Feature: Learning to use Protractor 
+As a QA
+I want to learn how to use Protractor 
+To be able to automate angular applications 
 
-Esquema do Cenario: Validar textos no site do angular.org
-  Dado que eu esteja na página
-  Quando preencher o campo de texto com o "<name>"
-  Então verifico que o texto "Hello <name>!" foi validado com sucesso
+Scenario Outline: Validate texts in angular.org website
+Given Im on the page
+When I fill in the text field with "<name>"
+Then I checked that the text "Hello <name>" was successfully validated
 
-  Exemplos: 
+  Examples: 
   | name        |
   | Concrete    |
   | QA Analyst  |
