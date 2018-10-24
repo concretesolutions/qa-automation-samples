@@ -4,8 +4,6 @@
 
 > Protractor is an end-to-end test framework for Angular and AngularJS applications. Protractor runs tests against your application running in a real browser, interacting with it as a user would.
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](http://img.shields.io/codeclimate/github/badges/badgerbadgerbadger.svg?style=flat-square)](https://codeclimate.com/github/badges/badgerbadgerbadger) [![Github Issues]
-
 ---
 
 ## Table of Contents
@@ -42,9 +40,9 @@
 
 ### Run test
 
-- Ride up selenium server to a default port and running the tests:
+- Run selenium server and then execute your tests scripts:
 
-> ride up server and run test
+> run server and tests
 
 ```shell
 $ npm run start_update_webdriver
@@ -54,7 +52,7 @@ $ npm run test
 ---
 
 ## Features
-- file `.feature`
+- file example `.feature`
 
 ```gherkin
 Feature: Learning to use Protractor 
@@ -77,8 +75,6 @@ Then I checked that the text "Hello <name>" was successfully validated
 ---
 
 ## Support
-
-Reach out to me at one of the following places!
 
 - Website at <a href="https://concrete.com.br" target="_blank">`Concrete`</a>
 - Twitter at <a href="https://twitter.com/ConcreteS" target="_blank">`@ConcreteS`</a>
