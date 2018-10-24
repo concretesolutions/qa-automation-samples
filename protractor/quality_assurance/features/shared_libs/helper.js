@@ -55,15 +55,15 @@ Helper.prototype.presenceOfAll = function (elementArrayFinder) {
   }
 }
 
-// This function take a screenshot and save in directory screenshots_atual
-Helper.prototype.getScreenshot = function (nomeArquivo) {
+// This function take a screenshot and save in directory screenshots
+Helper.prototype.getScreenshot = function (name) {
   function writeScreenShot (data, filename) {
     var stream = fs.createWriteStream(filename)
-    stream.write(Buffer.from(data, 'base64'))
+    stream.write(Buffer.from(data, 'base64').toString());
     stream.end()
   }
   return browser.takeScreenshot().then((png) => {
-    writeScreenShot(png, './features/screenshots_atual/' + nomeArquivo + '.png')
+    writeScreenShot(png, 'report/screenshots/' + name + '.png')
   })
 }
 
