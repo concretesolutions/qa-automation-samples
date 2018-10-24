@@ -78,6 +78,8 @@ exports.config = {
       output: 'report/cucumber_report.html',
       reportSuiteAsScenarios: true,
       launchReport: true,
+      screenshotsDirectory: 'report/screenshots/',
+      storeScreenshots: true,
       metadata: {
         'App Version': '0.0.1',
         'Test Environment': 'STAGING',
@@ -87,7 +89,6 @@ exports.config = {
         'Executed': 'Remote'
       }
     }
-
     reporter.generate(options)
   }
 }
