@@ -16,9 +16,10 @@
   "scripts": {
     "test": "cd ./quality_assurance && protractor conf.js",
     "static_fix": "standard --fix",
-    "start_update_webdriver": "webdriver-manager update && webdriver-manager start",
+    "start_update_webdriver": "webdriver-manager update && webdriver-manager start --detach --seleniumPort=4444",
     "simple_build": "cd ../protractor && npm install",
-    "run_local_test": "npm run simple_build && export TEST_ENV=local && npm run test"
+    "run_local_test": "npm run simple_build && export TEST_ENV=local && npm run test",
+    "run_stop_webdriver": "kill -9 $(lsof -ti tcp:4444)"
   },
   "standard": {
     "globals": []
