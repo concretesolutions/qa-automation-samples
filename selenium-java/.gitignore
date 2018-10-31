@@ -1,0 +1,67 @@
+node_modules
+npm-debug.log
+test/*
+allure*
+!/src/test/resources/allure.properties
+!AllureHelper.java
+build
+errorShots
+package-lock.json
+mochawesome-report
+.DS_Store
+test_result.json
+/target/
+.idea/
+.scripts/
+/evidence/
+
+# Created by https://www.gitignore.io/api/visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+
+# End of https://www.gitignore.io/api/visualstudiocode
+
+#.gitignore for Java projects (using eclipse)
+
+# Linux
+# backup files
+*~
+
+# Windows
+# thumbnails
+Thumbs.db
+
+# Mac OS X
+# metadata
+.DS_Store
+# thumbnails
+._*
+
+# GIT
+.git/
+
+# Java
+*.class
+# packages 
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.settings/
+.buildpath
+.classpath
+.project
+
+# Logging
+*.log
+
+# jME (binaries)
+*.so
