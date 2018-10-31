@@ -91,8 +91,8 @@ When I fill in the text field with "<name>"
 Then I checked that the text "<expected>" was successfully validated
 
   Examples: 
-  | name        | expected								              |
-  | Concrete	| A Concrete no QCon SP 2011 – parte 1	  |
+  | name        | expected					|
+  | Concrete	| A Concrete no QCon SP 2011 – parte 1	|
   | Lucas Fraga	| Utilizando async/await com Protractor	|
 ```
 
