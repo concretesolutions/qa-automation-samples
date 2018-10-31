@@ -29,18 +29,18 @@
 
 
 ## Configuration
-####Java
+###Java
 - Mac
 `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home`
 
-####Maven
+###Maven
 - Mac
 `export PATH=/opt/apache-maven-3.5.3/bin:$PATH`
 
 ## Installation
 
-- Windows
-https://cezarcruz.com.br/como-instalar-o-maven-windows/
+- Windows:
+https://www.mkyong.com/maven/how-to-install-maven-in-windows/
 
 - Install all dependencies (pom.xml)
 `mvn install`
