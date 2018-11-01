@@ -1,0 +1,7 @@
+[caps]
+platformName = "iOS"
+platformVersion = "11.4"
+deviceName = "iPhone 8"
+noReset= "false"
+fullReset= "false"
+app = "/Users/Danilo.Policarpo/dev/appium/build/ipa/WebViewApp.app"

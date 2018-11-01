@@ -1,0 +1,12 @@
+# config/cucumber.yml
+##YAML Template
+---
+android: PLATFORM=android -r features/support -r features/android -r features/step_definitions --exclude features/ios 
+ios: PLATFORM=ios -r features/support -r features/ios -r features/step_definitions --exclude features/android  
+
+#Sugestão de tags
+#--tags ~@manual --tags ~@nok --tags ~@negocio --tags ~@novo --tags ~@ios --tags ~@iOS --tags ~@integrado
+
+nougat: DEVICE=nougat --exclude features/ios 
+oreo: DEVICE=oreo --exclude features/ios 
+mars: DEVICE=mars --exclude features/ios 
