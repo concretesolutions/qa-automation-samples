@@ -9,7 +9,7 @@ To be able to automate applications
 Scenario Outline: Validate texts in concrete.com.br website
 Given Im on the page
 When I fill in the text field with "<name>"
-Then I checked that the text "<expected>" was successfully validated
+Then I checked if the text "<expected>" was successfully validated
 
   Examples: 
   | name        | expected															|
