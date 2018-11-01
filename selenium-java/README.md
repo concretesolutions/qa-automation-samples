@@ -29,20 +29,23 @@
 
 
 ## Configuration
-> environment variables
+> environment variables and bash_profile
 
 ###Java
-- Mac
+- Mac:
 `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home`
 
-###Maven
-- Mac
-`export PATH=/opt/apache-maven-3.5.3/bin:$PATH`
+- Windows:
+https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 
-## Installation
+###Maven
+- Mac:
+`export PATH=/opt/apache-maven-3.5.3/bin:$PATH`
 
 - Windows:
 https://www.mkyong.com/maven/how-to-install-maven-in-windows/
+
+## Installation
 
 - Install all dependencies (pom.xml)
 `mvn install`
