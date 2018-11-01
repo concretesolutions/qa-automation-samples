@@ -10,7 +10,7 @@
 
 > Índice `README`.
 
-- [Prerequisite](#prerequisite)
+- [Prerequisites](#prerequisites)
 - [Configuration](#configuration)
 - [Installation](#installation)
 - [Features](#features)
@@ -20,7 +20,7 @@
 
 ---
 
-## Prerequisite
+## Prerequisites
 
 - [JDK install +8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - [Eclipse IDE install](http://www.eclipse.org/downloads/)
@@ -29,18 +29,23 @@
 
 
 ## Configuration
+> environment variables and bash_profile
+
 ###Java
-- Mac
+- Mac:
 `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home`
 
-###Maven
-- Mac
-`export PATH=/opt/apache-maven-3.5.3/bin:$PATH`
+- Windows:
+https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html
 
-## Installation
+###Maven
+- Mac:
+`export PATH=/opt/apache-maven-3.5.3/bin:$PATH`
 
 - Windows:
 https://www.mkyong.com/maven/how-to-install-maven-in-windows/
+
+## Installation
 
 - Install all dependencies (pom.xml)
 `mvn install`
@@ -88,7 +93,7 @@ To be able to automate applications
 Scenario Outline: Validate texts in concrete.com.br website
 Given Im on the page
 When I fill in the text field with "<name>"
-Then I checked that the text "<expected>" was successfully validated
+Then I checked if the text "<expected>" was successfully validated
 
   Examples: 
   | name        | expected				|

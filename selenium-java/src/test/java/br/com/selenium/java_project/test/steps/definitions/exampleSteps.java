@@ -29,8 +29,8 @@ public class exampleSteps {
 	}
 	
 	//-----------------------------------ENTÃO----------------------------------------------------------
-	@Then("^I checked that the text \"([^\"]*)\" was successfully validated$")
-	public void i_checked_that_the_text_was_successfully_validated(String expected) {
+	@Then("^I checked if the text \"([^\"]*)\" was successfully validated$")
+	public void i_checked_if_the_text_was_successfully_validated(String expected) {
 		assertTrue(concrete.verifySearch(expected));
 	}
 }

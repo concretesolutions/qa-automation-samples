@@ -9,7 +9,7 @@ To be able to automate angular applications
 Scenario Outline: Validate texts in angular.org website
 Given Im on the page
 When I fill in the text field with "<name>"
-Then I checked that the text "Hello <name>!" was successfully validated
+Then I checked if the text "Hello <name>!" was successfully validated
 
   Examples: 
   | name        |

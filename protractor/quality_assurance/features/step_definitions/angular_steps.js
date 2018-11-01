@@ -12,7 +12,7 @@ When('I fill in the text field with {string}', async function (name) {
   await page.fillText(name)
 })
 
-Then('I checked that the text {string} was successfully validated', async function (text) {
+Then('I checked if the text {string} was successfully validated', async function (text) {
   await expect(page.resultText.getText())
     .to.eventually.equal(text)
 })
