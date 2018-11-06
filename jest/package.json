@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.10",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
-    "lodash": "^4.17.11",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
     "sfcookies": "^1.0.2"
@@ -21,7 +21,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "fetch-mock": "^6.5.0",
-    "jest-cli": "^23.6.0",
+    "jest-cli": "^20.0.4",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-test-render": "^1.1.1",
