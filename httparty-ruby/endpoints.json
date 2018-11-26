@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "id": 2,
+      "nome": "carlos",
+      "cpf": "123.456.789-00",
+      "sexo": "Feminino",
+      "altura": 1.75
+    },
+    {
+      "id": 1,
+      "nome": "Maria",
+      "cpf": "XXXXXXXX",
+      "sexo": "Feminino",
+      "altura": 1.75
+    }
+  ]
+}
