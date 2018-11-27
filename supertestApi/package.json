@@ -1,0 +1,41 @@
+{
+  "name": "evj_supertest_api",
+  "version": "1.0.0",
+  "description": "This is small project for showing an api test automation structure using Supertest, Mocha and Chai",
+  "main": "index.js",
+  "scripts": {
+    "test_api": "node_modules/mocha/bin/_mocha --recursive **/**Test.js && standard",
+    "static_test": "standard",
+    "static_fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eloyvj/evjSupertestApi.git"
+  },
+  "author": "Eloy Vitorio",
+  "license": "Free",
+  "homepage": "http://github.com",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-sorted": "^0.1.0",
+    "eslint": "^3.18.0",
+    "mocha": "^5.2.0",
+    "standard": "10.0.3",
+    "supertest": "^3.3.0",
+    "supertest-as-promised": "^4.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "joi": "^10.6.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "before",
+      "afterEach",
+      "beforeEach",
+      "after"
+    ]
+  }
+}
