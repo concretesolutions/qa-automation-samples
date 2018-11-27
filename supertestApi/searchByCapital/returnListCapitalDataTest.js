@@ -20,11 +20,11 @@ describe('GET on /capital/:capital', () => {
             .end((err, res) => {
               expect(res.status).to.be.eql(200)
               // Print data for debug
-              console.log('Retorno: ' + res.status)
-              console.log('Código da moeda: ' + res.body[0].currencies[0].code)
-              console.log('Nome da moeda: ' + res.body[0].currencies[0].name)
-              console.log('Simbolo da moeda: ' + res.body[0].currencies[0].symbol)
-              console.log('País: ' + res.body[0].name)
+              console.log('Status code: ' + res.status)
+              console.log('Currency code: ' + res.body[0].currencies[0].code)
+              console.log('Currency name: ' + res.body[0].currencies[0].name)
+              console.log('Currency symbol: ' + res.body[0].currencies[0].symbol)
+              console.log('Country: ' + res.body[0].name)
               console.log('Capital: ' + res.body[0].capital)
               // End print
               if (err) return done(err)
