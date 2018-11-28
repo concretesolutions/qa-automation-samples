@@ -1,0 +1,11 @@
+{
+  "platformName": "Android",
+  "deviceName": "Device",
+  "platformVersion": "7.0",
+  "automationName": "UiAutomator2",
+  "udid": "emulator-5554",
+  "avd": "OREO_API_26",
+  "fullReset": true,
+  "newCommandTimeout": 5
+}
+

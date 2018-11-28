@@ -1,0 +1,12 @@
+{
+  "platformName": "Android",
+  "deviceName": "Android",
+  "platformVersion": "7.0",
+  "automationName": "UiAutomator2",
+  "udid": "",
+  "noReset": true,
+  "appPackage": "",
+  "appActivity": "",
+  "newCommandTimeout": 10
+}
+

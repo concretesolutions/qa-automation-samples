@@ -1,0 +1,9 @@
+{
+  "udid": "",
+  "bundleId": "",
+  "deviceName": "iPhone 6s Plus",
+  "automationName": "XCUITest",
+  "noReset": true,
+  "AutoAcceptAlerts": true,
+  "newCommandTimeout": 10
+}
